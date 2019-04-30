@@ -1,0 +1,67 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build_WebTestApp",
+            "command": "dotnet",
+            "type": "process",
+            "args": [
+                "build",
+                "${workspaceFolder}/WebTestApplication/WebTestApplication.csproj"
+            ],
+            "problemMatcher": "$tsc"
+        },
+        {
+            "label": "publish_WebTestApp",
+            "command": "dotnet",
+            "type": "process",
+            "args": [
+                "publish",
+                "${workspaceFolder}/WebTestApplication/WebTestApplication.csproj"
+            ],
+            "problemMatcher": "$tsc"
+        },
+        {
+            "label": "watch_WebTestApp",
+            "command": "dotnet",
+            "type": "process",
+            "args": [
+                "watch",
+                "run",
+                "${workspaceFolder}/WebTestApplication/WebTestApplication.csproj"
+            ],
+            "problemMatcher": "$tsc"
+        },
+        {
+            "label": "build_ConsoleTestApp",
+            "command": "dotnet",
+            "type": "process",
+            "args": [
+                "build",
+                "${workspaceFolder}/ConsoleTestApp/ConsoleTestApp.csproj"
+            ],
+            "problemMatcher": "$tsc"
+        },
+        {
+            "label": "publish_ConsoleTestApp",
+            "command": "dotnet",
+            "type": "process",
+            "args": [
+                "publish",
+                "${workspaceFolder}/ConsoleTestApp/ConsoleTestApp.csproj"
+            ],
+            "problemMatcher": "$tsc"
+        },
+        {
+            "label": "watch_ConsoleTestApp",
+            "command": "dotnet",
+            "type": "process",
+            "args": [
+                "watch",
+                "run",
+                "${workspaceFolder}/ConsoleTestApp/ConsoleTestApp.csproj"
+            ],
+            "problemMatcher": "$tsc"
+        }
+    ]
+}
