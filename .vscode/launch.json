@@ -8,7 +8,7 @@
             "name": ".NET Core Launch (console)",
             "type": "coreclr",
             "request": "launch",
-            "preLaunchTask": "build",
+            "preLaunchTask": "build_ConsoleTestApp",
             // If you have changed target frameworks, make sure to update the program path.
             "program": "${workspaceFolder}/ConsoleTestApp/bin/Debug/netcoreapp1.1/ConsoleTestApp.dll",
             "args": [],
